@@ -1,0 +1,274 @@
+@font-face {
+font-family: 'Helvetica Neue';
+src: url('Helvetica-Neue-webfont.eot');
+src: url('Helvetica-Neue-webfont.eot?#iefix') format('embedded-opentype'),
+     url('Helvetica-Neue-webfont.woff') format('woff'),
+     url('Helvetica-Neue-webfont.ttf') format('truetype'),
+     url('Helvetica-Neue-webfont.svg#Helvetica Neue') format('svg');
+  }
+
+@font-face {
+font-family: 'St-ryde';
+src: url('fonts/st_ryde/StRyde-Regular.otf');
+src: url('fonts/st_ryde/StRyde-Regular.otf') format('embedded-opentype'),
+  }
+
+@font-face {
+font-family: 'Pacifico';
+src: url('fonts/pacifico/pacifico.ttf');
+src: url('fonts/pacifico/pacifico.ttf') format('truetype'),
+  }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	margin: auto;
+    height: 50px;
+    background-color: #ffffff;
+    border-bottom: solid #c7a249 7px;
+}
+
+footer {
+	width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    border-top: solid #c7a249 7px;
+    text-align: center;
+}
+
+footer p {
+	font-family: "pacifico";
+	font-size: 1.4em;
+	vertical-align: top;
+	margin-top: 6px;
+}
+
+.website-title {
+	margin-left: 150px;
+	display: inline-block;
+}
+
+.website-title p {
+	font-family: "pacifico";
+	font-size: 1em;
+}
+
+.social-icons {
+    padding: 5px;
+}
+
+#intro-bar {
+	background-image: url("images/paris-3.jpg");
+	background-position: 20% 20%;
+	border-bottom: solid #c7a249 7px;
+	padding-top: 50px;
+	height: 500px;
+	width: 100%;
+	margin: 0;
+}
+
+.main-stripe-experience {
+	background-color: #ffffff;
+	margin: auto;
+	padding: 10px;
+	width: 100%;
+}
+
+.main-stripe-skills {
+	background-color: #f8f9f9;
+	margin: auto;
+	padding: 10px;
+	width: 100%;
+}
+
+.language-container {
+	display: block;
+}
+
+.language-icon {
+	padding-right: 15px;
+}
+
+.language {
+	padding: 10px;
+}
+
+.language p {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.main-stripe-education {
+	background-color: #ffffff;
+	margin: auto;
+	padding: 10px;
+	width: 100%;
+}
+
+.main-stripe-contact {
+	background-image: url("images/map copy.png");
+	background-size: 100%;
+	background-position: 100%;
+	margin: auto;
+	padding: 10px;
+	height: 500px;
+	width: 100%;
+}
+
+#profile-infos {
+	padding:50px;
+}
+
+#profile-picture {
+	margin:auto;
+	text-align: center;
+}
+
+#profile-description {
+	font-family: "Helvetica Neue";
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin:auto; 
+	vertical-align: top;
+	width: 1000px;
+}
+
+#profile-description h1 {
+	font-family: "st-ryde";
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#profile-description p {
+	font-family: "st-ryde";
+	text-align: justify;
+	font-size: 1em;
+}
+
+#wrapper {
+	margin: auto;
+	width: 1100px;
+	border-color: rgb(255,192,0);
+	border-left: 1px;
+	border-right: 1px;
+}
+
+.company-logo {
+	float: right;
+}
+
+.contact-info {
+	font-family: "St-ryde";
+	text-align: center;
+	width: 500px;
+	margin: auto;
+	margin-top: 150px;
+	padding: 35px 20px;
+	line-height: 1.5em;
+	color: #444444;
+	background-color: #ddd;
+	background-image: linear-gradient(#ffffff, #ffffff);
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+}
+
+.contact-info p {
+}
+
+nav {
+	display: inline-block;
+	margin: auto;
+}
+
+nav li {
+	font-family: "pacifico";
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav ul {
+	margin: auto;
+}
+
+nav li a {
+	text-decoration: none;
+	color: rgb(5,113,127);
+}
+
+section {
+	margin: 0;
+	padding: 0;
+}
+
+.main-info {
+	font-family: "Helvetica Neue";
+	vertical-align: top;
+	width: 900px;
+	margin: auto;
+}
+
+.title-bg {
+	background-color: yellow;
+	width: 100%;
+}
+
+.section-title-1 {
+	text-align: center;
+	width: 90%;
+	margin: 20px auto 0 auto;
+	background: transparent url("images/title-line.png") repeat-x left 58%;
+}
+
+.section-title-2 {
+	text-align: center;
+	width: 90%;
+	margin: 20px auto 0 auto;
+	background: transparent url("images/title-line.png") repeat-x left 58%;
+}
+
+.section-title-1 span {
+	background: #ffffff;
+	font-family: "pacifico";
+	font-size: 1.2em;
+	color: #116270;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.section-title-2 span {
+	background: #f8f9f9;
+	font-family: "pacifico";
+	font-size: 1.2em;
+	color: #116270;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.info-position h2 {
+	font-family: "st-ryde";
+	font-size: 1.5em;
+}
+
+.other-color-bg {
+	background-color: #f8f9f9;
+}
+
+.content-conclusion {
+}
+
+.info-company {
+	height: 40px;
+}
+
+.info-position {
+	display: inline-block;
+}
+
+.info-company {
+}
