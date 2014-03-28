@@ -63,7 +63,7 @@ footer p {
 }
 
 #intro-bar {
-	background-image: url("images/paris-3.jpg");
+	background-image: url("assets/images/paris-3.jpg");
 	background-position: 20% 20%;
 	border-bottom: solid #c7a249 7px;
 	padding-top: 50px;
@@ -111,7 +111,7 @@ footer p {
 }
 
 .main-stripe-contact {
-	background-image: url("images/map copy.png");
+	background-image: url("assets/images/map copy.png");
 	background-size: 100%;
 	background-position: 100%;
 	margin: auto;
