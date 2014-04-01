@@ -87,7 +87,33 @@ footer p {
 }
 
 .language-container {
-	display: block;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+
+button {
+	padding: 10px;
+}
+
+.button-container {
+	text-align: center;
+}
+
+.tech-skills {
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+	text-align: center;
+}
+
+.tech-skills ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.language-container h2 {
+	text-align: center;
 }
 
 .language-icon {
